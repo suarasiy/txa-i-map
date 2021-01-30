@@ -1,7 +1,9 @@
-// import { User } from './User';
-// import { Company } from './Company';
+import { User } from './User';
 import { CustomMap } from './CustomMap';
 
 const div_map: Element = document.querySelector("#map");
 
-new CustomMap(div_map);
+const user = new User();
+const customMap = new CustomMap(div_map);
+
+customMap.addUserMarker(user);
