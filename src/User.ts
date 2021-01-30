@@ -1,6 +1,9 @@
 import faker from 'faker';
 
-class User {
+// Prevent to use default export as possible
+// in TypeScript
+
+export class User {
     name: string;
     location: {
         lat: number;
