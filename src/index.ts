@@ -1,8 +1,7 @@
-import { User } from './User';
-import { Company } from './Company';
+// import { User } from './User';
+// import { Company } from './Company';
+import { CustomMap } from './CustomMap';
 
-const user = new User();
-console.log(user);
+const div_map: Element = document.querySelector("#map");
 
-const company = new Company();
-console.log(company);
+new CustomMap(div_map);
