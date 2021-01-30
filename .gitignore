@@ -20,3 +20,11 @@ sketch
 # End of https://www.toptal.com/developers/gitignore/api/react
 
 .vscode/
+.cache/
+dist/
+
+# js
+*.js
+*.js.map
+*/*.js
+*/*.js.map
